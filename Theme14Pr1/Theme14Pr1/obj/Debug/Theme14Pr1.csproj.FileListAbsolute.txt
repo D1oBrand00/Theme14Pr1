@@ -1,0 +1,2 @@
+B:\Program Files\source\repos\Theme14Pr1\Theme14Pr1\obj\Debug\Theme14Pr1.csproj.AssemblyReference.cache
+B:\Program Files\source\repos\Theme14Pr1\Theme14Pr1\obj\Debug\Theme14Pr1.csproj.CoreCompileInputs.cache
