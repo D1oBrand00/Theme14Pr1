@@ -12,7 +12,10 @@ namespace Theme14Pr1
         {
             Point point1 = new Point();
             point1.Print();
+            Point point2 = new Point(2.1,5.3);
+            point2.Print();
             Console.WriteLine($"count = {Point.count}");
+            Point.LengthPoints(point1, point2);
             Console.Read();
         }
     }
