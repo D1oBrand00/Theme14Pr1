@@ -44,7 +44,7 @@ namespace Theme14Pr1
         /// <summary>
         /// Нестатический конструктор Point() без параметров, который инициализирует внутренние поля класса значением 1.0
         /// </summary>
-        public Point() 
+        public Point()
         {
             this.x = 1.0;
             this.y = 1.0;
@@ -71,10 +71,11 @@ namespace Theme14Pr1
         /// <summary>
         /// Статический метод LengthPoints() для вычисления расстояния между двумя точками. В качестве параметров метод должен получать экземпляры типа Point
         /// </summary>
-        /// <param name="x"></param>
-        /// <param name="y"></param>
- 
+        /// <param name="point1"></param>
+        /// <param name="point2"></param>
+        public static void LengthPoints(Point point1, Point point2)
+        
+        {
+            Console.WriteLine($"Расстояние между двумя точками - {Math.Sqrt(Math.Pow(point2.x - point1.x,2) + Math.Pow(point2.y - point1.y,2)):F2}");
         }
-
-    }
 }
